@@ -1,0 +1,12 @@
+<%= form_for(@attendee) do |a| %>
+
+  <div class="field">
+    <%= a.label :name %><br />
+    <%= a.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= a.label :email %><br />
+    <%= a.text_field :email %>
+  </div>
+<% end %>

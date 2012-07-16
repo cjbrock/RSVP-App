@@ -9,7 +9,7 @@ class AttendeesController < ApplicationController
   end
 
   def list
-    @attendee = Attendee.all
+    @attendees = Attendee.all
 
     respond_to do |format|
       format.html # index.html.erb

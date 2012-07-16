@@ -1,0 +1,16 @@
+<h1>Here are your other Party People</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email Address</th>
+  </tr>
+
+<% @attendees.each do |attendee| %>
+  <tr>
+    <td><%= attendee.name %></td>
+    <td><%= attendee.email %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

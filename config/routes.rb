@@ -1,9 +1,9 @@
 RSVPApp::Application.routes.draw do
-  
 
-  post "/new" => 'attendees#list'
-
+  get "/all" => 'attendees#list'
   resources :attendees
+
+
 
 
 
